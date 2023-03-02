@@ -10,41 +10,33 @@
 
 
 ## General Information
-- This project is developed as part of the Exploratory Data Analysis course required for Executive Post Graduate Diploma in Machine Learning and AI from IIIT Bangalore.
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- Like most other lending companies, lending loans to ‘risky’ applicants is the largest source of financial loss (called credit loss). Credit loss is the amount of money lost by the lender when the borrower refuses to pay or runs away with the money owed. In other words, borrowers who default cause the largest amount of loss to the lenders. In this case, the customers labelled as 'charged-off' are the 'defaulters'.The company wants to understand the driving factors (or driver variables) behind loan default, i.e. the variables which are strong indicators of default.  The company can utilise this knowledge for its portfolio and risk assessment.
+- For this project, we are using the data provided - [data set](loan/loan.csv).
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- The applicants who has charged off has high average int_rate than those who are fully paid.
+- the applicants who has charged off has high average loan_amount than those who are fully paid.
+- The applicants who has charged off has low average annual_inc than those who are fully paid.
+- For purposes like debt_consolidation,home_improvement,house,medical - If the int_rate is more, they applicants are likely to be charged off.
+- As the years pass, applicants who have high int_rate are likely to be charged off and the rate is increasing.
+- For grade G, If the loan amount is high, the applicant is likely to be charged off.
+- More percentage of applicants whose annual income in range 1-30000 are likely to be be charged off.
+- The charged off percentage of applicants whose int_rate is above 14 is more compare to those whose int_rate is less than 14 and it is very high for applicants whose interest rate is in range 17-23.
+- The charged off percent is high for the applicants whose loan amount more than 15000 and is even more if loan amount is more than 25000.
+- The applicants whose the percentage of installment on monthly income is more are likely to be Charged Off.
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+- Python - version 3.9.13
+- Pandas - version 1.4.4
+- Numpy - version 1.21.5
+- Matplotlib - version 3.5.2
+- Seaborn - version 0.11.2
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project is developed as part of the Exploratory Data Analysis course required for Executive Post Graduate Diploma in Machine Learning and AI from IIIT Bangalore.
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by shivasaibondugula4@gmail.com - feel free to contact me!
