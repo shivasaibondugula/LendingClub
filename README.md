@@ -34,7 +34,6 @@
 - Seaborn - version 0.11.2
 
 ## Acknowledgements
-Give credit here.
 - This project is developed as part of the Exploratory Data Analysis course required for Executive Post Graduate Diploma in Machine Learning and AI from IIIT Bangalore.
 
 
