@@ -1,5 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending club
+> Using Exploratory Data Analysis (EDA) for basic understanding the risk analytics in banking and financial services and understand how data is used to minimise the risk of losing money while lending to customers.
 
 
 ## Table of Contents
@@ -8,11 +8,9 @@
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
+- This project is developed as part of the Exploratory Data Analysis course required for Executive Post Graduate Diploma in Machine Learning and AI from IIIT Bangalore.
 - What is the business probem that your project is trying to solve?
 - What is the dataset that is being used?
 
